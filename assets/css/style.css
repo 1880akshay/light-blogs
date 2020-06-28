@@ -1,0 +1,41 @@
+body {
+    background-image: url("../images/bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.blog-section {
+    margin-top: 50px;
+}
+.card {
+    width: 100%;
+    border: 2px solid gray;
+    cursor: pointer;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+.image {
+    width: 100%;
+}
+.heading-card {
+    background-color: #1dd674;
+    color: white;
+    padding: 10px;
+    font-size: large;
+    text-transform: uppercase;
+}
+.sub-text {
+    padding: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: left;
+}
+.section-head {
+    padding: 10px;
+}
+.head-underline {
+    height: 3px;
+    width: 60px;
+    background-color: #1dd674;
+}
